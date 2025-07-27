@@ -1,0 +1,80 @@
+body {
+    background-color: rgba(0, 0, 0, 0.664);
+    font-family: Arial, sans-serif;
+    font-weight: 700;
+    margin: 0;
+    padding: 0;
+    height: 100dvh;
+    width: 100dvw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.container-start {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 300px;
+    height: 150px;
+    outline: 1px solid red;
+}
+
+.btn {
+    width: 100px;
+    height: 50px;
+    background-color: #d6c105;
+    color: #242b53;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.main-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 300px;
+    height: 200px;
+    color: #d6c105;
+    background-color: #242b53;
+    margin-bottom: 2rem;
+}
+
+.container-game {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: 150px;
+    outline: 1px solid red;
+}
+
+.container-letra {
+    font-size: 2rem;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20%;
+    border: 1px solid white;
+    background-color: #485183;
+    outline: 1px solid red;
+}
+
+.container-letra-acerto {
+    color: #242b53;
+    background-color: #d6c105;
+    border: 1px solid #d6c105;
+}
+
+.container-letra-erro {
+    color: #242b53;
+    background-color: #d60505;
+    border: 1px solid #d6c105;
+}
